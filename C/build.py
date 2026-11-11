@@ -2,7 +2,7 @@
 import json, os
 R = os.path.dirname(os.path.abspath(__file__)); os.chdir(R)
 IMG = json.load(open("imgdata.json"))
-V = "?v=1"
+V = "?v=2"
 PH1, PH2 = "8486339975", "7002078910"
 WA = "https://wa.me/91%s?text=Hi%%20UniqueCreation%%2C%%20I%%27d%%20like%%20to%%20enquire%%20about%%20photography." % PH1
 IG1, IG2 = "https://www.instagram.com/uniquecreationphotography/", "https://www.instagram.com/pinkuuddip/"
@@ -57,7 +57,7 @@ def head(title, desc, page, loader=False):
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{title}</title>
 <meta name="description" content="{desc}">
-<meta name="theme-color" content="#0c0a08">
+<meta name="theme-color" content="#22180f">
 <meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:image" content="assets/brand/og-image.jpg"><meta property="og:type" content="website">
 <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
